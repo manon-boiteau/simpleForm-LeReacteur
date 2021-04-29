@@ -1,9 +1,18 @@
 import "./App.css";
 
+/* Import Components */
+import Form from "./components/Form";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
+      <main>
+        <div className="wrapper">
+          <Form />
+        </div>
+      </main>
+      <Footer />
     </div>
   );
 }
