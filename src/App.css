@@ -38,10 +38,6 @@ h1 {
   visibility: hidden;
 }
 /* Form */
-
-/* .wrapper {
-  height: 95vh;
-} */
 form {
   display: flex;
   flex-direction: column;
@@ -122,5 +118,4 @@ footer {
   font-size: 12px;
   height: 8vh;
   line-height: 8vh;
-  background-color: #ffbea4;
 }
