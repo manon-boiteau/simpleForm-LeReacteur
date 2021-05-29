@@ -39,7 +39,7 @@ const Form = () => {
         onSubmit={(event) => {
           event.preventDefault();
           password !== secondPassword
-            ? alert("‼️Your two passwords are not the same 😳")
+            ? alert("‼️ Your two passwords are not the same 😳")
             : setDisplay(true);
         }}
         style={{
